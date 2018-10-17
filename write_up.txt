@@ -1,0 +1,11 @@
+Fathya Annasya Yuzrin
+APAP - B
+1606917903
+
+1. Mengapa perlu menginisiasi object PilotModel, sedangkan yang di test hanya FlightModel?
+
+2. Jelaskan apa yang akan terjadi jika object PilotModel dihapus dan tidak dilakukan setPilot pada
+FlightModel?
+
+3. Jelaskan apa yang dilakukan oleh code
+Mockito.when(flightDb.findByFlightNumber(flight.get().getFlightNumber())).thenReturn(flight);
